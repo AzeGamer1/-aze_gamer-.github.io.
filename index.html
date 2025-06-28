@@ -1,42 +1,70 @@
+<!-- dosya adı: index.php -->
 <!DOCTYPE html>
 <html lang="az">
 <head>
-    <meta charset="UTF-8" />
-    <title>Butonlarla Linkler</title>
+    <meta charset="UTF-8">
+    <title>Məhəmməd Sosial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to right, #1c1c1c, #121212);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            margin-top: 30px;
-            background-color: #fff;
-            color: #000;
+            padding: 20px;
         }
+
         h1 {
-            margin-bottom: 50px;
-            font-size: 28px;
+            font-size: 36px;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
         }
+
         .button {
             display: inline-block;
-            margin: 10px;
-            padding: 15px 30px;
+            margin: 15px 0;
+            padding: 16px 32px;
             font-size: 18px;
-            color: white;
+            font-weight: bold;
             border: none;
-            border-radius: 10px;
+            border-radius: 50px;
             cursor: pointer;
             text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.3s;
         }
+
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+        }
+
         .instagram {
             background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            color: white;
         }
+
         .tiktok {
-            background-color: #010101;
+            background: #000;
             color: #69C9D0;
-            font-weight: bold;
+            border: 2px solid #69C9D0;
         }
-        .bottom-text {
-            margin-top: 70px;
+
+        .phone {
+            margin-top: 60px;
             font-size: 20px;
+            color: #cccccc;
         }
     </style>
 </head>
@@ -44,21 +72,15 @@
 
     <h1>Məhəmməd</h1>
 
-    <!-- Instagram stili buton -->
     <a href="https://www.instagram.com/yaqub_600?igsh=MTRmYXVqZ3I3MzlzYQ==" target="_blank" class="button instagram">
-        Instagram
+        Instagram Profilinə Keç
     </a>
 
-    <br/><br/>
-
-    <!-- TikTok stili buton -->
     <a href="https://www.tiktok.com/@user4546125?_t=ZS-8xZi0jebbyz&_r=1" target="_blank" class="button tiktok">
-        TikTok
+        TikTok Profilinə Keç
     </a>
 
-    <div class="bottom-text">
-        Nomrə : +994508994004
-    </div>
+    <div class="phone">Nomrə : +994508994004</div>
 
 </body>
 </html>
