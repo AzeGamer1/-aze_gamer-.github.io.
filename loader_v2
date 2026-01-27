@@ -1,0 +1,10 @@
+{
+  "user_txt": "http://ag23.atwebpages.com/blocked_users.txt",
+  "key_txt": "http://ag23.atwebpages.com/key",
+  "users_txt": "http://ag23.atwebpages.com/users.json",
+  "check_user": "http://ag23.atwebpages.com/check_user.php",
+  "online_txt": "http://ag23.atwebpages.com/online.php",
+  "save_user": "http://ag23.atwebpages.com/save_user.php",
+  "start_server": "http://ag23.atwebpages.com/deneme.php",
+  "check_imei": "http://ag23.atwebpages.com/imei.txt"
+}
