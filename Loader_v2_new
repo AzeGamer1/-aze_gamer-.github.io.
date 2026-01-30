@@ -5,6 +5,6 @@
   "check_user": "http://ag23.atwebpages.com/check_user.php",
   "online_txt": "http://ag23.atwebpages.com/online.php",
   "save_user": "http://ag23.atwebpages.com/save_user.php",
-  "start_server": "http://ag23.atwebpages.com/loader_v2_.php",
+  "start_server": "https://raw.githubusercontent.com/AzeGamer1/-aze_gamer-.github.io./refs/heads/main/Loader_v2_stop",
   "check_imei": "http://ag23.atwebpages.com/imei.txt"
 }
