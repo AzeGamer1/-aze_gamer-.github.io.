@@ -1,1 +1,8 @@
-
+{
+  "apk": "https://raw.githubusercontent.com/AzeGamer1/-aze_gamer-.github.io./refs/heads/main/apk_mod",
+  "get_user": "http://azegamer.atwebpages.com/get_users.php",
+  "register": "http://azegamer.atwebpages.com/register.php",
+  "key": "http://azegamer.atwebpages.com/key",
+  "online": "http://azegamer.atwebpages.com/online.php",
+  
+}
