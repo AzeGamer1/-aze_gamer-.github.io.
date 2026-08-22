@@ -1,0 +1,16 @@
+name: Cleanup Keys
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call cleanup endpoint
+        run: |
+          curl -L --max-time 30 \
+          "https://ag637.gt.tc/cron.php?key=${{ secrets.CLEANUP_KEY }}"
